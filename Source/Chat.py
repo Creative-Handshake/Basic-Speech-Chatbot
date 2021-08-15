@@ -50,7 +50,7 @@ def command():
 
 #Tells you the time of day (Morning, afternoon, evening, night) - when you open the script
 def Welcome():
-	if hour>=0 and hour<12:
+    if hour>=0 and hour<12:
         speak('Good morning ' + user)
     
     elif hour>=12 and hour<18:
@@ -72,9 +72,9 @@ time.sleep(2)
 Welcome()
 
 while True:
-	query = Command()
+    query = Command()
 	
-	if query == "Hello":
-		speak("Hello" + user)
+    if query == "Hello":
+	speak("Hello" + user)
 		
 	
