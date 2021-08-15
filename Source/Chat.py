@@ -50,7 +50,7 @@ def command():
 
 #Tells you the time of day (Morning, afternoon, evening, night) - when you open the script
 def Welcome():
-	f hour>=0 and hour<12:
+	if hour>=0 and hour<12:
         speak('Good morning ' + user)
     
     elif hour>=12 and hour<18:
