@@ -39,7 +39,7 @@ def command():
         
         try:
             query = r.recognize_google(audio, language='en-gb')
-            print(f"Ethan: {query}\n")
+            print(f"{user}: {query}\n")
         
         except Exception as e:
             print("Exception: " + str(e))
