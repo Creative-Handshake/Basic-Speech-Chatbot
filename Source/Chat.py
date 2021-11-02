@@ -1,5 +1,5 @@
 #Module imports
-import speech-recognition as sr
+import speech_recognition as sr
 import pyaudio
 import pyttsx3
 
