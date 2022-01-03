@@ -65,8 +65,7 @@ def Welcome():
 
 		
 #Main Script
-print("[BOT] : Running")
-print(" ")
+print("[BOT] : Running \n\n")
 
 time.sleep(2)
 Welcome()
